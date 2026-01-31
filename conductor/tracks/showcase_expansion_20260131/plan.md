@@ -23,9 +23,9 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2: Content Sections Implementation' (Protocol in workflow.md)
 
 ## Phase 3: Final Polish & DX Features
-- [ ] Task: Style Code Snippets
+- [x] Task: Style Code Snippets (9dca024)
     - Use Lembrut card styling for all code blocks.
     - Ensure readability and copyability.
-- [ ] Task: Integrate "Real-World" Mockup
+- [~] Task: Integrate "Real-World" Mockup
     - Port or link the mockup from the previous track's demo.
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Final Polish & DX Features' (Protocol in workflow.md)
