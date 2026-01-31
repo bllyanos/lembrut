@@ -74,6 +74,28 @@ body {
   transition: transform 0.1s, box-shadow 0.1s;
 }
 
+.btn-primary:focus {
+  background-color: hsl(
+    var(--lembrut-blue-h),
+    calc(var(--lembrut-blue-s) + var(--active-saturation-boost)),
+    var(--lembrut-blue-l)
+  );
+  box-shadow: 8px 8px 0px 0px var(--lembrut-black);
+  transform: translate(-2px, -2px);
+  outline: none;
+}
+
+.btn-secondary:focus {
+  background-color: hsl(
+    var(--lembrut-green-h),
+    calc(var(--lembrut-green-s) + var(--active-saturation-boost)),
+    var(--lembrut-green-l)
+  );
+  box-shadow: 8px 8px 0px 0px var(--lembrut-black);
+  transform: translate(-2px, -2px);
+  outline: none;
+}
+
 .btn:active {
   transform: translate(2px, 2px);
   box-shadow: 2px 2px 0px 0px var(--lembrut-black);
