@@ -15,7 +15,11 @@ Lembrut (a portmanteau of "lembut" - Indonesian for soft - and "brutalism") is a
 - **Rounded Corners**: Noticeable and consistent border-radius across all components (e.g., `8px` or `12px`).
 
 ## Core Components
-- **Layout**: Responsive grid and spacing utilities.
+- **Layout**: 
+  - **Hybrid Grid System**: A standard 12-column Flexbox-based row/column system.
+  - **CSS Grid Utilities**: Modern 2D grid helpers for complex layouts.
+  - **Responsive Containers**: Fluid and fixed-width containers with tablet (768px) and desktop (1024px) breakpoints.
+  - **Alignment & Gaps**: Intuitive utilities for spacing (1-16 scale) and alignment (Flexbox/Grid helpers).
 - **Typography**: Bold headers and readable body text.
 - **Forms**: Comprehensive input styles including custom checkboxes, radios, and validation states (error/success).
 
