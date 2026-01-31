@@ -11,7 +11,7 @@
 - [~] Task: Implement Typography Section
     - Showcase full font hierarchy and weights.
     - Add HTML code snippets for each variant.
-- [ ] Task: Implement Color Palette Section
+- [~] Task: Implement Color Palette Section
     - Create visual swatches for all pastel colors.
     - Add HTML code snippets for utility classes.
 - [ ] Task: Implement Layout & Grid Section
