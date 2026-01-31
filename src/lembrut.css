@@ -6,6 +6,10 @@
   --lembrut-green: #e8f5e9;
   --lembrut-red: #ffebee;
   --lembrut-purple: #f3e5f5;
+
+  /* Active State Logic */
+  --active-saturation-boost: 30%;
+  --active-lightness-decrease: 20%;
   
   /* Borders & Shadows */
   --lembrut-black: #000000;
