@@ -22,6 +22,7 @@ Lembrut (a portmanteau of "lembut" - Indonesian for soft - and "brutalism") is a
   - **Alignment & Gaps**: Intuitive utilities for spacing (1-16 scale) and alignment (Flexbox/Grid helpers).
 - **Typography**: Bold headers and readable body text.
 - **Forms**: Comprehensive input styles including custom checkboxes, radios, and validation states (error/success).
+- **Documentation**: A built-in, documentation-style showcase providing visual examples and copyable code snippets for all framework features.
 
 ## Target Audience
 Web developers looking for a unique, bold, yet user-friendly design system that stands out from standard "flat" or "glassmorphism" trends.
