@@ -186,6 +186,30 @@ body {
   box-shadow: 1px 1px 0px 0px var(--lembrut-black);
 }
 
+.radiomark {
+  border-radius: 50%;
+}
+
+.radio:checked ~ .radiomark {
+  background-color: var(--lembrut-pink);
+}
+
+.radio:checked ~ .radiomark::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: black;
+}
+
+.radio-group:active .radiomark {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px var(--lembrut-black);
+}
+
 /* Utility classes (Simplified) */
 .p-8 { padding: 2rem; }
 .p-6 { padding: 1.5rem; }
