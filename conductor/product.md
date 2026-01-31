@@ -11,6 +11,7 @@ Lembrut (a portmanteau of "lembut" - Indonesian for soft - and "brutalism") is a
 - **Drop Shadows**: 
   - Solid black offset shadows for clickable/passive elements.
   - 40% Gray for inactive/non-clickable items.
+- **Bold Active States**: Reactive focus and active states using increased shadow depth and vibrant background shifts for high tactile feedback.
 - **Rounded Corners**: Noticeable and consistent border-radius across all components (e.g., `8px` or `12px`).
 
 ## Core Components
