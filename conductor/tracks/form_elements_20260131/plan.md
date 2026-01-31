@@ -15,5 +15,5 @@ Implement a comprehensive set of soft-brutalist form elements (inputs, textareas
 
 ## Phase 3: Validation States & Refinement
 - [x] Task: Implement .is-error and .is-success utility classes for all form elements. 94c6fe0
-- [ ] Task: Ensure accessibility for custom controls (focus rings, keyboard interaction).
+- [x] Task: Ensure accessibility for custom controls (focus rings, keyboard interaction). defed9f
 - [ ] Task: Update the demo page (`index.html`) with a comprehensive "Forms" section.
