@@ -249,6 +249,44 @@ body {
   transform: translate(2px, 2px);
 }
 
+/* Validation States */
+.is-error,
+.is-error.input,
+.is-error.textarea,
+.is-error.select,
+.is-error.file-input,
+.is-error .checkmark,
+.is-error .radiomark {
+  border-color: var(--lembrut-red);
+  box-shadow: 4px 4px 0px 0px var(--lembrut-red);
+}
+
+.is-error .checkmark,
+.is-error .radiomark {
+  box-shadow: 3px 3px 0px 0px var(--lembrut-red);
+}
+
+.is-success,
+.is-success.input,
+.is-success.textarea,
+.is-success.select,
+.is-success.file-input,
+.is-success .checkmark,
+.is-success .radiomark {
+  border-color: var(--lembrut-green);
+  box-shadow: 4px 4px 0px 0px var(--lembrut-green);
+}
+
+.is-success .checkmark,
+.is-success .radiomark {
+  box-shadow: 3px 3px 0px 0px var(--lembrut-green);
+}
+
+.is-error:focus,
+.is-success:focus {
+  background-color: white; /* Reset pastel pink focus bg to emphasize validation color? Or keep it? Spec says "Changes outline/shadow" */
+}
+
 /* Utility classes (Simplified) */
 .p-8 { padding: 2rem; }
 .p-6 { padding: 1.5rem; }
