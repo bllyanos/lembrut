@@ -8,7 +8,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Structure & Navigation' (Protocol in workflow.md)
 
 ## Phase 2: Content Sections Implementation
-- [ ] Task: Implement Typography Section
+- [~] Task: Implement Typography Section
     - Showcase full font hierarchy and weights.
     - Add HTML code snippets for each variant.
 - [ ] Task: Implement Color Palette Section
