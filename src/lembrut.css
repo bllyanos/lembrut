@@ -127,7 +127,16 @@ body {
 .input:focus,
 .textarea:focus,
 .select:focus {
-  background-color: var(--lembrut-pink);
+  background-color: hsl(
+    var(--lembrut-pink-h),
+    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-pink-l) - var(--active-lightness-decrease))
+  );
+  border-color: hsl(
+    var(--lembrut-pink-h),
+    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-pink-l) - calc(var(--active-lightness-decrease) * 2))
+  );
   box-shadow: 6px 6px 0px 0px var(--lembrut-black);
   transform: translate(-1px, -1px);
 }
