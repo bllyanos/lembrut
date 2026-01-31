@@ -87,6 +87,58 @@
             </div>
         </section>
 
+        <!-- Gaps -->
+        <section>
+            <h2 class="text-2xl font-bold">Gap Utilities</h2>
+            <p class="mb-4">Demonstrating different gap sizes on CSS Grids.</p>
+            <div class="mb-8">
+                <span class="demo-label">.gap-2 (0.5rem)</span>
+                <div class="grid grid-cols-4 gap-2">
+                    <div class="demo-box bg-pastel-purple"></div>
+                    <div class="demo-box bg-pastel-purple"></div>
+                    <div class="demo-box bg-pastel-purple"></div>
+                    <div class="demo-box bg-pastel-purple"></div>
+                </div>
+            </div>
+            <div class="mb-8">
+                <span class="demo-label">.gap-8 (2rem)</span>
+                <div class="grid grid-cols-4 gap-8">
+                    <div class="demo-box bg-pastel-purple"></div>
+                    <div class="demo-box bg-pastel-purple"></div>
+                    <div class="demo-box bg-pastel-purple"></div>
+                    <div class="demo-box bg-pastel-purple"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vertical Alignment -->
+        <section>
+            <h2 class="text-2xl font-bold">Vertical Alignment</h2>
+            <p class="mb-4">Using <code>.items-*</code> to align columns of different heights.</p>
+            <div class="row items-end bg-white p-6 card mb-8" style="min-height: 150px;">
+                <div class="col-4">
+                    <div class="demo-box bg-pastel-blue" style="height: 40px;">items-end</div>
+                </div>
+                <div class="col-4">
+                    <div class="demo-box bg-pastel-blue" style="height: 80px;">items-end</div>
+                </div>
+                <div class="col-4">
+                    <div class="demo-box bg-pastel-blue" style="height: 60px;">items-end</div>
+                </div>
+            </div>
+            <div class="row items-center bg-white p-6 card" style="min-height: 150px;">
+                <div class="col-4">
+                    <div class="demo-box bg-pastel-green" style="height: 40px;">items-center</div>
+                </div>
+                <div class="col-4">
+                    <div class="demo-box bg-pastel-green" style="height: 80px;">items-center</div>
+                </div>
+                <div class="col-4">
+                    <div class="demo-box bg-pastel-green" style="height: 60px;">items-center</div>
+                </div>
+            </div>
+        </section>
+
         <!-- CSS Grid -->
         <section>
             <h2 class="text-2xl font-bold">CSS Grid Utilities</h2>
@@ -141,6 +193,62 @@
                         <div class="grid grid-cols-2 gap-4">
                             <div class="demo-box bg-pastel-blue">G1</div>
                             <div class="demo-box bg-pastel-blue">G2</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Real-World Example -->
+        <section class="mb-32">
+            <h2 class="text-2xl font-bold">"Real-World" Mockup</h2>
+            <div class="card p-0" style="overflow: hidden; background-color: #f0f0f0;">
+                <!-- Mock Nav -->
+                <div class="bg-white border-b p-4 flex justify-between items-center" style="border-bottom: 3px solid black;">
+                    <div class="font-black text-xl">BRAND</div>
+                    <div class="flex gap-4">
+                        <div class="font-bold">Work</div>
+                        <div class="font-bold">About</div>
+                        <div class="btn btn-primary" style="padding: 0.25rem 0.75rem; font-size: 0.75rem;">Login</div>
+                    </div>
+                </div>
+                
+                <!-- Mock Hero -->
+                <div class="p-12 bg-pastel-yellow" style="border-bottom: 3px solid black;">
+                    <div class="row items-center">
+                        <div class="col-tablet-7">
+                            <h3 class="text-6xl font-black mb-4">Soft Brutalism.</h3>
+                            <p class="text-xl mb-8">Building bold interfaces with a gentle touch.</p>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                        <div class="col-tablet-5">
+                            <div class="demo-box bg-white" style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                                IMAGE PLACEHOLDER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mock Content -->
+                <div class="p-12">
+                    <div class="row">
+                        <div class="col-tablet-4 mb-8">
+                            <div class="card p-6 bg-white h-full">
+                                <h4 class="font-bold mb-2">Feature One</h4>
+                                <p>Using the 12-column grid for consistent spacing.</p>
+                            </div>
+                        </div>
+                        <div class="col-tablet-4 mb-8">
+                            <div class="card p-6 bg-white h-full">
+                                <h4 class="font-bold mb-2">Feature Two</h4>
+                                <p>Responsive behaviors built-in by default.</p>
+                            </div>
+                        </div>
+                        <div class="col-tablet-4 mb-8">
+                            <div class="card p-6 bg-white h-full">
+                                <h4 class="font-bold mb-2">Feature Three</h4>
+                                <p>Soft brutalist aesthetic for modern brands.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
