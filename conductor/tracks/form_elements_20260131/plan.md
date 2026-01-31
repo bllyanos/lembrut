@@ -2,7 +2,7 @@
 
 Implement a comprehensive set of soft-brutalist form elements (inputs, textareas, selects, checkboxes, radios, and file uploads) according to the `lembrut` design system.
 
-## Phase 1: Foundation & Base Inputs
+## Phase 1: Foundation & Base Inputs [checkpoint: cb7bbad]
 - [x] Task: Define additional CSS variables for validation colors (pastel red, pastel green) in `src/lembrut.css`. d9855b1
 - [x] Task: Implement base styles for `.input`, `.textarea`, and `.select` with thick outlines and solid shadows. 444aae5
 - [x] Task: Implement `:focus` and active states (tactile "push down") for base inputs. 0addc59
