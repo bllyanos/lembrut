@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lembrut Layout - Soft Brutalist CSS Framework</title>
+    <link rel="stylesheet" href="../src/lembrut.css">
+    <style>
+        .demo-box {
+            padding: 1.5rem;
+            text-align: center;
+            font-weight: 800;
+            background: white;
+            border: var(--lembrut-border-width) solid var(--lembrut-black);
+            border-radius: var(--lembrut-radius);
+            box-shadow: 4px 4px 0px 0px var(--lembrut-black);
+        }
+        section {
+            margin-bottom: 4rem;
+        }
+        h2 {
+            margin-bottom: 2rem;
+            font-size: 2.25rem;
+            font-weight: 900;
+        }
+        .demo-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="bg-pastel-yellow p-8">
+    <div class="container">
+        <header class="mb-16">
+            <h1 class="text-6xl font-black mb-4">Layout System</h1>
+            <p class="text-xl">Hybrid Grid: Flexbox (12-column) + CSS Grid.</p>
+            <a href="../index.html" class="btn btn-secondary mt-8 inline-block" style="text-decoration: none; display: inline-block;">Back to Components</a>
+        </header>
+
+        <!-- Basic Grid -->
+        <section>
+            <h2 class="text-2xl font-bold">12-Column Flexbox Grid</h2>
+            <div class="row gap-y-4">
+                <div class="col-12 mb-4"><div class="demo-box bg-pastel-pink">col-12</div></div>
+                <div class="col-6 mb-4"><div class="demo-box bg-pastel-blue">col-6</div></div>
+                <div class="col-6 mb-4"><div class="demo-box bg-pastel-blue">col-6</div></div>
+                <div class="col-4 mb-4"><div class="demo-box bg-pastel-green">col-4</div></div>
+                <div class="col-4 mb-4"><div class="demo-box bg-pastel-green">col-4</div></div>
+                <div class="col-4 mb-4"><div class="demo-box bg-pastel-green">col-4</div></div>
+            </div>
+        </section>
+
+        <!-- Responsive Columns -->
+        <section>
+            <h2 class="text-2xl font-bold">Responsive Columns</h2>
+            <p class="mb-4">Stack on mobile, 2 columns on tablet, 3 columns on desktop.</p>
+            <div class="row">
+                <div class="col-12 col-tablet-6 col-desktop-4 mb-4">
+                    <div class="demo-box">Responsive A</div>
+                </div>
+                <div class="col-12 col-tablet-6 col-desktop-4 mb-4">
+                    <div class="demo-box">Responsive B</div>
+                </div>
+                <div class="col-12 col-tablet-12 col-desktop-4 mb-4">
+                    <div class="demo-box">Responsive C</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Offsets -->
+        <section>
+            <h2 class="text-2xl font-bold">Grid Offsets</h2>
+            <div class="row">
+                <div class="col-4 offset-4 mb-4">
+                    <div class="demo-box bg-pastel-pink">col-4 offset-4</div>
+                </div>
+                <div class="col-3 offset-1 mb-4">
+                    <div class="demo-box bg-pastel-blue">col-3 offset-1</div>
+                </div>
+                <div class="col-3 offset-4 mb-4">
+                    <div class="demo-box bg-pastel-green">col-3 offset-4</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CSS Grid -->
+        <section>
+            <h2 class="text-2xl font-bold">CSS Grid Utilities</h2>
+            <p class="mb-4">2-Dimensional layout using <code>.grid</code> and <code>.grid-cols-*</code>.</p>
+            <div class="grid grid-cols-1 grid-tablet-cols-3 gap-6">
+                <div class="demo-box">Grid Item 1</div>
+                <div class="demo-box">Grid Item 2</div>
+                <div class="demo-box">Grid Item 3</div>
+                <div class="demo-box">Grid Item 4</div>
+                <div class="demo-box">Grid Item 5</div>
+                <div class="demo-box">Grid Item 6</div>
+            </div>
+        </section>
+
+        <!-- Alignment -->
+        <section>
+            <h2 class="text-2xl font-bold">Alignment Helpers</h2>
+            <div class="row justify-center mb-8">
+                <div class="col-4">
+                    <div class="demo-box">Justify Center</div>
+                </div>
+            </div>
+            <div class="row justify-between mb-8">
+                <div class="col-3">
+                    <div class="demo-box">Justify</div>
+                </div>
+                <div class="col-3">
+                    <div class="demo-box">Between</div>
+                </div>
+            </div>
+            <div class="grid place-items-center bg-white p-12 card" style="height: 200px;">
+                <div class="demo-box bg-pastel-pink">Place Items Center</div>
+            </div>
+        </section>
+
+        <!-- Nested Layouts -->
+        <section>
+            <h2 class="text-2xl font-bold">Nested Layouts</h2>
+            <div class="row">
+                <div class="col-6">
+                    <div class="card p-6 h-full">
+                        <span class="demo-label">Parent Col-6</span>
+                        <div class="row">
+                            <div class="col-6"><div class="demo-box bg-pastel-yellow">Nested 6</div></div>
+                            <div class="col-6"><div class="demo-box bg-pastel-yellow">Nested 6</div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card p-6 h-full">
+                        <span class="demo-label">Parent Col-6</span>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="demo-box bg-pastel-blue">G1</div>
+                            <div class="demo-box bg-pastel-blue">G2</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
