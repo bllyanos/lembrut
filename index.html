@@ -29,17 +29,65 @@
             </div>
 
             <div class="card p-6">
-                <h2 class="text-2xl font-bold mb-8">Forms (Phase 1)</h2>
-                <div>
+                <h2 class="text-2xl font-bold mb-8">Form Elements</h2>
+                <div class="space-y-8">
                     <div class="form-field">
-                        <label class="label">Username</label>
-                        <input type="text" class="input" placeholder="Enter username">
-                        <span class="helper-text">Uppercase label and thick outlines.</span>
+                        <label class="label">Full Name</label>
+                        <input type="text" class="input" placeholder="e.g. John Doe">
+                        <span class="helper-text">Standard text input with thick outline.</span>
                     </div>
+
                     <div class="form-field">
-                        <label class="label">Bio</label>
-                        <textarea class="textarea" placeholder="Tell us about yourself"></textarea>
+                        <label class="label">Email Address</label>
+                        <div class="flex gap-4">
+                            <div style="flex: 1;">
+                                <input type="email" class="input is-success" value="valid@example.com">
+                                <span class="helper-text">Success state</span>
+                            </div>
+                            <div style="flex: 1;">
+                                <input type="email" class="input is-error" value="invalid-email">
+                                <span class="helper-text">Error state</span>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="form-field">
+                        <label class="label">Biography</label>
+                        <textarea class="textarea" placeholder="Tell us your story..."></textarea>
+                    </div>
+
+                    <div class="form-field">
+                        <label class="label">Preferences</label>
+                        <div class="flex gap-8">
+                            <label class="checkbox-group">
+                                <input type="checkbox" class="checkbox" checked>
+                                <span class="checkmark"></span>
+                                <span class="font-bold">Newsletter</span>
+                            </label>
+                            <label class="checkbox-group">
+                                <input type="checkbox" class="checkbox is-error">
+                                <span class="checkmark"></span>
+                                <span class="font-bold">Error Checkbox</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label class="label">Account Type</label>
+                        <div class="flex gap-8">
+                            <label class="radio-group">
+                                <input type="radio" name="account" class="radio" checked>
+                                <span class="radiomark"></span>
+                                <span class="font-bold">Personal</span>
+                            </label>
+                            <label class="radio-group">
+                                <input type="radio" name="account" class="radio">
+                                <span class="radiomark"></span>
+                                <span class="font-bold">Business</span>
+                            </label>
+                        </div>
+                    </div>
+
                     <div class="form-field">
                         <label class="label">Country</label>
                         <select class="select">
@@ -48,40 +96,7 @@
                             <option>Other</option>
                         </select>
                     </div>
-                </div>
-            </div>
 
-            <div class="card p-6">
-                <h2 class="text-2xl font-bold mb-8">Forms (Phase 2)</h2>
-                <div>
-                    <div class="form-field">
-                        <div class="flex gap-8">
-                            <label class="checkbox-group">
-                                <input type="checkbox" class="checkbox" checked>
-                                <span class="checkmark"></span>
-                                <span class="font-bold">Check me</span>
-                            </label>
-                            <label class="checkbox-group">
-                                <input type="checkbox" class="checkbox">
-                                <span class="checkmark"></span>
-                                <span class="font-bold">Unchecked</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form-field">
-                        <div class="flex gap-8">
-                            <label class="radio-group">
-                                <input type="radio" name="radio-demo" class="radio" checked>
-                                <span class="radiomark"></span>
-                                <span class="font-bold">Option A</span>
-                            </label>
-                            <label class="radio-group">
-                                <input type="radio" name="radio-demo" class="radio">
-                                <span class="radiomark"></span>
-                                <span class="font-bold">Option B</span>
-                            </label>
-                        </div>
-                    </div>
                     <div class="form-field">
                         <label class="label">Upload Avatar</label>
                         <input type="file" class="file-input">
