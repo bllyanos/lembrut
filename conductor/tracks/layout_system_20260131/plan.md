@@ -10,7 +10,7 @@
 - [x] Task: Implement 12-Column Flexbox Grid [0734cf1]
     - Create `.row` (flex-wrap) and `.col-*` (1-12) classes.
     - Add responsive variants (e.g., `.col-tablet-6`, `.col-desktop-4`).
-- [ ] Task: Implement Grid Offsets
+- [x] Task: Implement Grid Offsets [39afa41]
     - Create `.offset-*` classes (1-11) for Flexbox grid.
 - [ ] Task: Implement CSS Grid Utilities
     - Create utilities for `display: grid`, `grid-template-columns`, and common grid patterns.
