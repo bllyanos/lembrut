@@ -379,6 +379,35 @@ body {
   .grid-desktop-cols-12 { grid-template-columns: repeat(12, minmax(0, 1fr)); }
 }
 
+/* Gaps */
+.gap-1  { gap: var(--lembrut-spacing-1); }
+.gap-2  { gap: var(--lembrut-spacing-2); }
+.gap-3  { gap: var(--lembrut-spacing-3); }
+.gap-4  { gap: var(--lembrut-spacing-4); }
+.gap-6  { gap: var(--lembrut-spacing-6); }
+.gap-8  { gap: var(--lembrut-spacing-8); }
+.gap-12 { gap: var(--lembrut-spacing-12); }
+.gap-16 { gap: var(--lembrut-spacing-16); }
+
+/* Alignment */
+.justify-start { justify-content: flex-start; }
+.justify-end { justify-content: flex-end; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-evenly { justify-content: space-evenly; }
+
+.items-start { align-items: flex-start; }
+.items-end { align-items: flex-end; }
+.items-center { align-items: center; }
+.items-baseline { align-items: baseline; }
+.items-stretch { align-items: stretch; }
+
+.place-items-center { place-items: center; }
+.place-items-start { place-items: start; }
+.place-items-end { place-items: end; }
+.place-items-stretch { place-items: stretch; }
+
 /* Custom Selection Controls */
 .checkbox-group,
 .radio-group {
