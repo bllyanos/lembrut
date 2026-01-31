@@ -39,17 +39,34 @@
 
                     <div class="form-field">
                         <label class="label">Email Address</label>
-                        <div class="flex gap-4">
-                            <div style="flex: 1;">
-                                <input type="email" class="input is-success" value="valid@example.com">
-                                <span class="helper-text">Success state</span>
-                            </div>
-                            <div style="flex: 1;">
-                                <input type="email" class="input is-error" value="invalid-email">
-                                <span class="helper-text">Error state</span>
-                            </div>
+                        <input type="email" id="demo-email" class="input" value="user@example.com">
+                        <div class="flex gap-4 mt-4" style="margin-top: 1rem;">
+                            <button class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.8rem;" onclick="setDemoState('normal')">Normal</button>
+                            <button class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.8rem; background-color: var(--lembrut-green);" onclick="setDemoState('success')">Success</button>
+                            <button class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.8rem; background-color: var(--lembrut-red);" onclick="setDemoState('error')">Error</button>
                         </div>
+                        <span id="demo-helper" class="helper-text">Standard email input. Click buttons to toggle states.</span>
                     </div>
+
+                    <script>
+                        function setDemoState(state) {
+                            const input = document.getElementById('demo-email');
+                            const helper = document.getElementById('demo-helper');
+                            
+                            // Reset classes
+                            input.classList.remove('is-success', 'is-error');
+                            
+                            if (state === 'success') {
+                                input.classList.add('is-success');
+                                helper.textContent = 'Success state: Email is valid!';
+                            } else if (state === 'error') {
+                                input.classList.add('is-error');
+                                helper.textContent = 'Error state: Invalid email format.';
+                            } else {
+                                helper.textContent = 'Standard email input. Click buttons to toggle states.';
+                            }
+                        }
+                    </script>
 
                     <div class="form-field">
                         <label class="label">Biography</label>
