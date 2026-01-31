@@ -17,7 +17,7 @@
 - [~] Task: Implement Layout & Grid Section
     - Demonstrate 12-column grid and CSS grid utilities.
     - Add HTML code snippets for grid structures.
-- [ ] Task: Implement Enhanced Component Gallery
+- [~] Task: Implement Enhanced Component Gallery
     - Expand buttons and forms sections.
     - Add HTML code snippets for all components.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: Content Sections Implementation' (Protocol in workflow.md)
