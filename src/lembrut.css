@@ -108,6 +108,22 @@ body {
   box-shadow: 2px 2px 0px 0px var(--lembrut-black);
 }
 
+.label {
+  display: block;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+}
+
+.helper-text {
+  display: block;
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
 /* Utility classes (Simplified) */
 .p-8 { padding: 2rem; }
 .p-6 { padding: 1.5rem; }
