@@ -13,5 +13,10 @@ Lembrut (a portmanteau of "lembut" - Indonesian for soft - and "brutalism") is a
   - 40% Gray for inactive/non-clickable items.
 - **Rounded Corners**: Noticeable and consistent border-radius across all components (e.g., `8px` or `12px`).
 
+## Core Components
+- **Layout**: Responsive grid and spacing utilities.
+- **Typography**: Bold headers and readable body text.
+- **Forms**: Comprehensive input styles including custom checkboxes, radios, and validation states (error/success).
+
 ## Target Audience
 Web developers looking for a unique, bold, yet user-friendly design system that stands out from standard "flat" or "glassmorphism" trends.
