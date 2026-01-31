@@ -31,8 +31,8 @@
   --lembrut-purple: hsl(var(--lembrut-purple-h), var(--lembrut-purple-s), var(--lembrut-purple-l));
 
   /* Active State Logic */
-  --active-saturation-boost: 30%;
-  --active-lightness-decrease: 20%;
+  --active-saturation-boost: 15%;
+  --focus-shadow-offset: 8px;
   
   /* Borders & Shadows */
   --lembrut-black: #000000;
@@ -127,9 +127,13 @@ body {
 .input:focus,
 .textarea:focus,
 .select:focus {
-  background-color: var(--lembrut-pink);
-  box-shadow: 6px 6px 0px 0px var(--lembrut-black);
-  transform: translate(-1px, -1px);
+  background-color: hsl(
+    var(--lembrut-pink-h),
+    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
+    var(--lembrut-pink-l)
+  );
+  box-shadow: var(--focus-shadow-offset) var(--focus-shadow-offset) 0px 0px var(--lembrut-black);
+  transform: translate(-2px, -2px);
 }
 
 .input:active,
