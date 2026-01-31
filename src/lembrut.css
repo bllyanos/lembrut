@@ -189,6 +189,18 @@ body {
   transform: rotate(45deg);
 }
 
+.checkbox:focus ~ .checkmark,
+.radio:focus ~ .radiomark {
+  box-shadow: 5px 5px 0px 0px var(--lembrut-black);
+  transform: translate(-1px, -1px);
+}
+
+.checkbox:focus-visible ~ .checkmark,
+.radio:focus-visible ~ .radiomark {
+  outline: 2px solid var(--lembrut-black);
+  outline-offset: 4px;
+}
+
 .checkbox-group:active .checkmark {
   transform: translate(2px, 2px);
   box-shadow: 1px 1px 0px 0px var(--lembrut-black);
@@ -227,6 +239,14 @@ body {
   border-radius: var(--lembrut-radius);
   box-shadow: 4px 4px 0px 0px var(--lembrut-black);
   cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s, background-color 0.1s;
+}
+
+.file-input:focus {
+  outline: none;
+  background-color: var(--lembrut-pink);
+  box-shadow: 6px 6px 0px 0px var(--lembrut-black);
+  transform: translate(-1px, -1px);
 }
 
 .file-input::file-selector-button {
