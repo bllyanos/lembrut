@@ -60,6 +60,18 @@ body {
   border: var(--lembrut-border-width) solid var(--lembrut-black);
   border-radius: var(--lembrut-radius);
   box-shadow: var(--lembrut-shadow-offset) var(--lembrut-shadow-offset) 0px 0px var(--lembrut-black);
+  transition: transform 0.1s, box-shadow 0.1s, background-color 0.1s;
+}
+
+.card:focus {
+  outline: none;
+  box-shadow: 10px 10px 0px 0px var(--lembrut-black);
+  transform: translate(-2px, -2px);
+}
+
+.card:active {
+  transform: translate(1px, 1px);
+  box-shadow: 4px 4px 0px 0px var(--lembrut-black);
 }
 
 .btn {
