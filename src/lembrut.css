@@ -1,0 +1,81 @@
+:root {
+  /* Soft Palette */
+  --lembrut-yellow: #fff9c4;
+  --lembrut-pink: #fce4ec;
+  --lembrut-blue: #e3f2fd;
+  --lembrut-green: #e8f5e9;
+  --lembrut-red: #ffebee;
+  --lembrut-purple: #f3e5f5;
+  
+  /* Borders & Shadows */
+  --lembrut-black: #000000;
+  --lembrut-gray: #999999;
+  --lembrut-border-width: 3px;
+  --lembrut-radius: 12px;
+  --lembrut-shadow-offset: 6px;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--lembrut-yellow);
+  color: var(--lembrut-black);
+}
+
+.bg-pastel-yellow { background-color: var(--lembrut-yellow); }
+.bg-pastel-pink { background-color: var(--lembrut-pink); }
+
+.card {
+  background: white;
+  border: var(--lembrut-border-width) solid var(--lembrut-black);
+  border-radius: var(--lembrut-radius);
+  box-shadow: var(--lembrut-shadow-offset) var(--lembrut-shadow-offset) 0px 0px var(--lembrut-black);
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: var(--lembrut-border-width) solid var(--lembrut-black);
+  border-radius: var(--lembrut-radius);
+  background: white;
+  box-shadow: 4px 4px 0px 0px var(--lembrut-black);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px var(--lembrut-black);
+}
+
+.btn-primary {
+  background-color: var(--lembrut-blue);
+}
+
+.btn-secondary {
+  background-color: var(--lembrut-green);
+}
+
+.btn-disabled {
+  background-color: #f5f5f5;
+  border-color: var(--lembrut-gray);
+  color: var(--lembrut-gray);
+  box-shadow: 4px 4px 0px 0px var(--lembrut-gray);
+  cursor: not-allowed;
+}
+
+/* Utility classes (Simplified) */
+.p-8 { padding: 2rem; }
+.p-6 { padding: 1.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-12 { margin-bottom: 3rem; }
+.max-w-2xl { max-width: 42rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.text-6xl { font-size: 3.75rem; line-height: 1; }
+.text-2xl { font-size: 1.5rem; }
+.text-xl { font-size: 1.25rem; }
+.font-black { font-weight: 900; }
+.font-bold { font-weight: 700; }
+.flex { display: flex; }
+.gap-4 { gap: 1rem; }
+.space-y-8 > * + * { margin-top: 2rem; }
