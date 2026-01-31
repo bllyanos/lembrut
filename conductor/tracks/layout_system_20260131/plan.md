@@ -4,7 +4,7 @@
 - [x] Task: Define Breakpoint and Spacing Variables [552a5ff]
     - Define `--lembrut-breakpoint-tablet: 768px` and `--lembrut-breakpoint-desktop: 1024px`.
     - Define spacing/gap variables if not already present.
-- [ ] Task: Implement Responsive Container
+- [x] Task: Implement Responsive Container [5e12464]
     - Create `.container` and `.container-fluid` classes.
     - Add media queries for max-width adjustments at tablet and desktop breakpoints.
 - [ ] Task: Implement 12-Column Flexbox Grid
