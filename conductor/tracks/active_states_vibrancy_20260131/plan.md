@@ -8,7 +8,7 @@ This plan outlines the steps to implement more vibrant background and outline co
 - [ ] Task: Conductor - User Manual Verification 'Foundation & Variables' (Protocol in workflow.md)
 
 ## Phase 2: Component Implementation
-- [ ] Task: Implement bolder active states for standard inputs (`input`, `textarea`, `select`).
+- [x] 5532965 Task: Implement bolder active states for standard inputs (`input`, `textarea`, `select`).
 - [ ] Task: Implement bolder active states for custom controls (`checkbox`, `radio`, `file-input`).
 - [ ] Task: Implement bolder active states for buttons.
 - [ ] Task: Implement bolder active states for interactive cards/containers.
