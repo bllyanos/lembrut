@@ -11,7 +11,7 @@ This plan outlines the steps to implement more vibrant background and outline co
 - [x] 765807c Task: Implement increased shadow depth and subtle background saturation for standard inputs.
 - [x] b5f75d5 Task: Implement increased shadow depth for custom controls.
 - [x] 7a6c590 Task: Implement increased shadow depth and saturated pop-out for buttons.
-- [ ] Task: Implement consistent shadow-based focus for cards.
+- [x] 8fa2fc4 Task: Implement consistent shadow-based focus for cards.
 - [ ] Task: Conductor - User Manual Verification 'Brutalist Active States' (Protocol in workflow.md)
 
 ## Phase 3: Validation & Refinement
