@@ -14,6 +14,6 @@ Implement a comprehensive set of soft-brutalist form elements (inputs, textareas
 - [x] Task: Implement `.file-input` wrapper to style the file upload button and field. 6be70be
 
 ## Phase 3: Validation States & Refinement
-- [ ] Task: Implement `.is-error` and `.is-success` utility classes for all form elements.
+- [x] Task: Implement .is-error and .is-success utility classes for all form elements. 94c6fe0
 - [ ] Task: Ensure accessibility for custom controls (focus rings, keyboard interaction).
 - [ ] Task: Update the demo page (`index.html`) with a comprehensive "Forms" section.
