@@ -215,6 +215,32 @@ body {
   margin-bottom: 0;
 }
 
+/* Layout System */
+.container,
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--lembrut-spacing-4);
+  padding-left: var(--lembrut-spacing-4);
+}
+
+.container {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
 /* Custom Selection Controls */
 .checkbox-group,
 .radio-group {
