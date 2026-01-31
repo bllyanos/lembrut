@@ -74,6 +74,36 @@ body {
   transition: transform 0.1s, box-shadow 0.1s;
 }
 
+.btn-primary:focus {
+  background-color: hsl(
+    var(--lembrut-blue-h),
+    calc(var(--lembrut-blue-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-blue-l) - var(--active-lightness-decrease))
+  );
+  border-color: hsl(
+    var(--lembrut-blue-h),
+    calc(var(--lembrut-blue-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-blue-l) - calc(var(--active-lightness-decrease) * 2))
+  );
+  box-shadow: 6px 6px 0px 0px var(--lembrut-black);
+  transform: translate(-1px, -1px);
+}
+
+.btn-secondary:focus {
+  background-color: hsl(
+    var(--lembrut-green-h),
+    calc(var(--lembrut-green-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-green-l) - var(--active-lightness-decrease))
+  );
+  border-color: hsl(
+    var(--lembrut-green-h),
+    calc(var(--lembrut-green-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-green-l) - calc(var(--active-lightness-decrease) * 2))
+  );
+  box-shadow: 6px 6px 0px 0px var(--lembrut-black);
+  transform: translate(-1px, -1px);
+}
+
 .btn:active {
   transform: translate(2px, 2px);
   box-shadow: 2px 2px 0px 0px var(--lembrut-black);
@@ -85,6 +115,10 @@ body {
 
 .btn-secondary {
   background-color: var(--lembrut-green);
+}
+
+.btn:focus {
+  outline: none;
 }
 
 .btn-disabled {
