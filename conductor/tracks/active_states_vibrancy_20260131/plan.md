@@ -4,7 +4,7 @@ This plan outlines the steps to implement more vibrant background and outline co
 
 ## Phase 1: Foundation & Variables
 - [x] 0482e0f Task: Define global CSS variables for active state saturation boost and darkening in `src/lembrut.css`.
-- [ ] Task: Update base color definitions to support dynamic transformation using these new variables.
+- [x] 6353904 Task: Update base color definitions to support dynamic transformation using these new variables.
 - [ ] Task: Conductor - User Manual Verification 'Foundation & Variables' (Protocol in workflow.md)
 
 ## Phase 2: Component Implementation
