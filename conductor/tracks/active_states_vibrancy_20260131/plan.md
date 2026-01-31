@@ -7,12 +7,12 @@ This plan outlines the steps to implement more vibrant background and outline co
 - [x] 6353904 Task: Update base color definitions to support dynamic transformation using these new variables.
 - [ ] Task: Conductor - User Manual Verification 'Foundation & Variables' (Protocol in workflow.md)
 
-## Phase 2: Component Implementation
-- [x] 5532965 Task: Implement bolder active states for standard inputs (`input`, `textarea`, `select`).
-- [x] 9b82d3b Task: Implement bolder active states for custom controls (`checkbox`, `radio`, `file-input`).
-- [x] 3b45bf2 Task: Implement bolder active states for buttons.
-- [x] fe77800 Task: Implement bolder active states for interactive cards/containers.
-- [ ] Task: Conductor - User Manual Verification 'Component Implementation' (Protocol in workflow.md)
+## Phase 2: Brutalist Active States
+- [x] 765807c Task: Implement increased shadow depth and subtle background saturation for standard inputs.
+- [ ] Task: Implement increased shadow depth for custom controls.
+- [ ] Task: Implement increased shadow depth and saturated pop-out for buttons.
+- [ ] Task: Implement consistent shadow-based focus for cards.
+- [ ] Task: Conductor - User Manual Verification 'Brutalist Active States' (Protocol in workflow.md)
 
 ## Phase 3: Validation & Refinement
 - [ ] Task: Ensure accessibility and contrast compliance for all new active states.
