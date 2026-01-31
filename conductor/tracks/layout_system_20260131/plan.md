@@ -1,6 +1,6 @@
 # Implementation Plan: Layout System (Grid & Flexbox)
 
-## Phase 1: Core Layout Utilities (CSS Grid & Flexbox)
+## Phase 1: Core Layout Utilities (CSS Grid & Flexbox) [checkpoint: 3d9328b]
 - [x] Task: Define Breakpoint and Spacing Variables [552a5ff]
     - Define `--lembrut-breakpoint-tablet: 768px` and `--lembrut-breakpoint-desktop: 1024px`.
     - Define spacing/gap variables if not already present.
