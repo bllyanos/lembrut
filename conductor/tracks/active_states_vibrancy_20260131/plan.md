@@ -11,7 +11,7 @@ This plan outlines the steps to implement more vibrant background and outline co
 - [x] 5532965 Task: Implement bolder active states for standard inputs (`input`, `textarea`, `select`).
 - [x] 9b82d3b Task: Implement bolder active states for custom controls (`checkbox`, `radio`, `file-input`).
 - [x] 3b45bf2 Task: Implement bolder active states for buttons.
-- [ ] Task: Implement bolder active states for interactive cards/containers.
+- [x] fe77800 Task: Implement bolder active states for interactive cards/containers.
 - [ ] Task: Conductor - User Manual Verification 'Component Implementation' (Protocol in workflow.md)
 
 ## Phase 3: Validation & Refinement
