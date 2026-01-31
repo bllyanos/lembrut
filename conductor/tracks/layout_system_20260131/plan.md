@@ -14,7 +14,7 @@
     - Create `.offset-*` classes (1-11) for Flexbox grid.
 - [x] Task: Implement CSS Grid Utilities [2c37dc3]
     - Create utilities for `display: grid`, `grid-template-columns`, and common grid patterns.
-- [ ] Task: Implement Gap and Alignment Utilities
+- [x] Task: Implement Gap and Alignment Utilities [ab03b61]
     - Create `.gap-*`, `.justify-*`, `.items-*`, and `.place-items-*` classes.
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Core Layout Utilities' (Protocol in workflow.md)
 
