@@ -7,7 +7,7 @@
 - [x] Task: Implement Responsive Container [5e12464]
     - Create `.container` and `.container-fluid` classes.
     - Add media queries for max-width adjustments at tablet and desktop breakpoints.
-- [ ] Task: Implement 12-Column Flexbox Grid
+- [x] Task: Implement 12-Column Flexbox Grid [0734cf1]
     - Create `.row` (flex-wrap) and `.col-*` (1-12) classes.
     - Add responsive variants (e.g., `.col-tablet-6`, `.col-desktop-4`).
 - [ ] Task: Implement Grid Offsets
