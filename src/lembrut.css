@@ -93,6 +93,21 @@ body {
   padding-right: 3rem;
 }
 
+.input:focus,
+.textarea:focus,
+.select:focus {
+  background-color: var(--lembrut-pink);
+  box-shadow: 6px 6px 0px 0px var(--lembrut-black);
+  transform: translate(-1px, -1px);
+}
+
+.input:active,
+.textarea:active,
+.select:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px var(--lembrut-black);
+}
+
 /* Utility classes (Simplified) */
 .p-8 { padding: 2rem; }
 .p-6 { padding: 1.5rem; }
