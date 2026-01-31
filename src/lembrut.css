@@ -64,6 +64,35 @@ body {
   cursor: not-allowed;
 }
 
+/* Form Elements */
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background: white;
+  border: var(--lembrut-border-width) solid var(--lembrut-black);
+  border-radius: var(--lembrut-radius);
+  box-shadow: 4px 4px 0px 0px var(--lembrut-black);
+  outline: none;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 3rem;
+}
+
 /* Utility classes (Simplified) */
 .p-8 { padding: 2rem; }
 .p-6 { padding: 1.5rem; }
