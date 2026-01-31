@@ -19,7 +19,7 @@
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Core Layout Utilities' (Protocol in workflow.md)
 
 ## Phase 2: Demonstration & Verification
-- [ ] Task: Create Layout Demonstration Section
+- [x] Task: Create Layout Demonstration Section [ab05a30]
     - Add a new section in `index.html` (or create `demo/layout.html`) to showcase the new utilities.
     - Implement examples for:
         - Standard 12-column grid.
