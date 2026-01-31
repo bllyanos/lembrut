@@ -12,7 +12,7 @@
     - Add responsive variants (e.g., `.col-tablet-6`, `.col-desktop-4`).
 - [x] Task: Implement Grid Offsets [39afa41]
     - Create `.offset-*` classes (1-11) for Flexbox grid.
-- [ ] Task: Implement CSS Grid Utilities
+- [x] Task: Implement CSS Grid Utilities [2c37dc3]
     - Create utilities for `display: grid`, `grid-template-columns`, and common grid patterns.
 - [ ] Task: Implement Gap and Alignment Utilities
     - Create `.gap-*`, `.justify-*`, `.items-*`, and `.place-items-*` classes.
