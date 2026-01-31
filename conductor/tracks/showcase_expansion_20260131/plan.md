@@ -14,7 +14,7 @@
 - [~] Task: Implement Color Palette Section
     - Create visual swatches for all pastel colors.
     - Add HTML code snippets for utility classes.
-- [ ] Task: Implement Layout & Grid Section
+- [~] Task: Implement Layout & Grid Section
     - Demonstrate 12-column grid and CSS grid utilities.
     - Add HTML code snippets for grid structures.
 - [ ] Task: Implement Enhanced Component Gallery
