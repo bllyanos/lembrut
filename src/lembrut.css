@@ -40,6 +40,20 @@
   --lembrut-border-width: 3px;
   --lembrut-radius: 12px;
   --lembrut-shadow-offset: 6px;
+
+  /* Breakpoints */
+  --lembrut-breakpoint-tablet: 768px;
+  --lembrut-breakpoint-desktop: 1024px;
+
+  /* Spacing & Gaps */
+  --lembrut-spacing-1: 0.25rem;
+  --lembrut-spacing-2: 0.5rem;
+  --lembrut-spacing-3: 0.75rem;
+  --lembrut-spacing-4: 1rem;
+  --lembrut-spacing-6: 1.5rem;
+  --lembrut-spacing-8: 2rem;
+  --lembrut-spacing-12: 3rem;
+  --lembrut-spacing-16: 4rem;
 }
 
 *, *::before, *::after {
@@ -162,9 +176,9 @@ body {
 .textarea:focus,
 .select:focus {
   background-color: hsl(
-    var(--lembrut-pink-h),
-    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
-    var(--lembrut-pink-l)
+    var(--lembrut-yellow-h),
+    calc(var(--lembrut-yellow-s) + var(--active-saturation-boost)),
+    var(--lembrut-yellow-l)
   );
   box-shadow: var(--focus-shadow-offset) var(--focus-shadow-offset) 0px 0px var(--lembrut-black);
   transform: translate(-2px, -2px);
@@ -254,16 +268,14 @@ body {
   transform: rotate(45deg);
 }
 
-.checkbox:focus ~ .checkmark,
 .radio:focus ~ .radiomark {
   box-shadow: 6px 6px 0px 0px var(--lembrut-black);
   transform: translate(-1.5px, -1.5px);
-}
-
-.checkbox:focus-visible ~ .checkmark,
-.radio:focus-visible ~ .radiomark {
-  outline: 2px solid var(--lembrut-black);
-  outline-offset: 4px;
+  background-color: hsl(
+    var(--lembrut-yellow-h),
+    calc(var(--lembrut-yellow-s) + var(--active-saturation-boost)),
+    var(--lembrut-yellow-l)
+  );
 }
 
 .checkbox-group:active .checkmark {
@@ -309,7 +321,11 @@ body {
 
 .file-input:focus {
   outline: none;
-  background-color: var(--lembrut-pink);
+  background-color: hsl(
+    var(--lembrut-yellow-h),
+    calc(var(--lembrut-yellow-s) + var(--active-saturation-boost)),
+    var(--lembrut-yellow-l)
+  );
   box-shadow: 6px 6px 0px 0px var(--lembrut-black);
   transform: translate(-1px, -1px);
 }
@@ -342,13 +358,18 @@ body {
 .is-error.file-input,
 .is-error .checkmark,
 .is-error .radiomark {
-  border-color: var(--lembrut-red);
-  box-shadow: 4px 4px 0px 0px var(--lembrut-red);
+  border-color: var(--lembrut-black);
+  box-shadow: 4px 4px 0px 0px var(--lembrut-black);
+  background-color: hsl(
+    var(--lembrut-red-h),
+    calc(var(--lembrut-red-s) + var(--active-saturation-boost)),
+    var(--lembrut-red-l)
+  );
 }
 
 .is-error .checkmark,
 .is-error .radiomark {
-  box-shadow: 3px 3px 0px 0px var(--lembrut-red);
+  box-shadow: 3px 3px 0px 0px var(--lembrut-black);
 }
 
 .is-success,
@@ -358,18 +379,24 @@ body {
 .is-success.file-input,
 .is-success .checkmark,
 .is-success .radiomark {
-  border-color: var(--lembrut-green);
-  box-shadow: 4px 4px 0px 0px var(--lembrut-green);
+  border-color: var(--lembrut-black);
+  box-shadow: 4px 4px 0px 0px var(--lembrut-black);
+  background-color: hsl(
+    var(--lembrut-green-h),
+    calc(var(--lembrut-green-s) + var(--active-saturation-boost)),
+    var(--lembrut-green-l)
+  );
 }
 
 .is-success .checkmark,
 .is-success .radiomark {
-  box-shadow: 3px 3px 0px 0px var(--lembrut-green);
+  box-shadow: 3px 3px 0px 0px var(--lembrut-black);
 }
 
 .is-error:focus,
 .is-success:focus {
-  background-color: white; /* Reset pastel pink focus bg to emphasize validation color? Or keep it? Spec says "Changes outline/shadow" */
+  box-shadow: var(--focus-shadow-offset) var(--focus-shadow-offset) 0px 0px var(--lembrut-black);
+  transform: translate(-2px, -2px);
 }
 
 /* Utility classes (Simplified) */
