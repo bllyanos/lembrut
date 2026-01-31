@@ -669,3 +669,14 @@ body {
 
 .h-full { height: 100%; }
 .w-full { width: 100%; }
+
+.text-gray { color: var(--lembrut-gray); }
+.text-black { color: var(--lembrut-black); }
+
+.swatch {
+  height: 1.5rem;
+  width: 100%;
+  border: var(--lembrut-border-width) solid var(--lembrut-black);
+  border-radius: 4px;
+  box-shadow: 2px 2px 0px 0px var(--lembrut-black);
+}
