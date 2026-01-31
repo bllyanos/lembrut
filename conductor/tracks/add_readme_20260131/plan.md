@@ -12,6 +12,6 @@ This plan outlines the steps to create a comprehensive `README.md` for the `lemb
 
 ## Phase 2: Implementation & Refinement
 - [x] Task: Create the `README.md` file in the project root with the drafted content. 1351125
-- [ ] Task: Verify all internal links (e.g., to `conductor/product.md`) are correct and functional.
-- [ ] Task: Review the final `README.md` for clarity, tone, and formatting consistency.
-- [ ] Task: Conductor - User Manual Verification 'Implementation & Refinement' (Protocol in workflow.md)
+- [x] Task: Verify all internal links (e.g., to `conductor/product.md`) are correct and functional. 2b9621d
+- [x] Task: Review the final `README.md` for clarity, tone, and formatting consistency. 2b9621d
+- [x] Task: Conductor - User Manual Verification 'Implementation & Refinement' (Protocol in workflow.md) 2b9621d
