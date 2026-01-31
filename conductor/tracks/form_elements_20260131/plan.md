@@ -11,7 +11,7 @@ Implement a comprehensive set of soft-brutalist form elements (inputs, textareas
 ## Phase 2: Custom Selection Controls
 - [x] Task: Create custom-styled `.checkbox` components using the "fully custom" approach (hiding native input, styling a pseudo-element). d6af05a
 - [x] Task: Create custom-styled `.radio` components with consistent rounded corners (or circular variant) and thick outlines. 2112638
-- [ ] Task: Implement `.file-input` wrapper to style the file upload button and field.
+- [x] Task: Implement `.file-input` wrapper to style the file upload button and field. 6be70be
 
 ## Phase 3: Validation States & Refinement
 - [ ] Task: Implement `.is-error` and `.is-success` utility classes for all form elements.
