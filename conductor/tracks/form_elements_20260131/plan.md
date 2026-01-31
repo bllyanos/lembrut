@@ -9,7 +9,7 @@ Implement a comprehensive set of soft-brutalist form elements (inputs, textareas
 - [x] Task: Implement `.label` (bold, uppercase) and `.helper-text` (gray) components. 77d6593
 
 ## Phase 2: Custom Selection Controls
-- [ ] Task: Create custom-styled `.checkbox` components using the "fully custom" approach (hiding native input, styling a pseudo-element).
+- [x] Task: Create custom-styled `.checkbox` components using the "fully custom" approach (hiding native input, styling a pseudo-element). d6af05a
 - [ ] Task: Create custom-styled `.radio` components with consistent rounded corners (or circular variant) and thick outlines.
 - [ ] Task: Implement `.file-input` wrapper to style the file upload button and field.
 
