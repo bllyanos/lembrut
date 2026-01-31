@@ -1,11 +1,34 @@
 :root {
   /* Soft Palette */
-  --lembrut-yellow: #fff9c4;
-  --lembrut-pink: #fce4ec;
-  --lembrut-blue: #e3f2fd;
-  --lembrut-green: #e8f5e9;
-  --lembrut-red: #ffebee;
-  --lembrut-purple: #f3e5f5;
+  --lembrut-yellow-h: 54;
+  --lembrut-yellow-s: 100%;
+  --lembrut-yellow-l: 88%;
+  --lembrut-yellow: hsl(var(--lembrut-yellow-h), var(--lembrut-yellow-s), var(--lembrut-yellow-l));
+
+  --lembrut-pink-h: 340;
+  --lembrut-pink-s: 82%;
+  --lembrut-pink-l: 94%;
+  --lembrut-pink: hsl(var(--lembrut-pink-h), var(--lembrut-pink-s), var(--lembrut-pink-l));
+
+  --lembrut-blue-h: 205;
+  --lembrut-blue-s: 87%;
+  --lembrut-blue-l: 94%;
+  --lembrut-blue: hsl(var(--lembrut-blue-h), var(--lembrut-blue-s), var(--lembrut-blue-l));
+
+  --lembrut-green-h: 125;
+  --lembrut-green-s: 45%;
+  --lembrut-green-l: 93%;
+  --lembrut-green: hsl(var(--lembrut-green-h), var(--lembrut-green-s), var(--lembrut-green-l));
+
+  --lembrut-red-h: 350;
+  --lembrut-red-s: 100%;
+  --lembrut-red-l: 96%;
+  --lembrut-red: hsl(var(--lembrut-red-h), var(--lembrut-red-s), var(--lembrut-red-l));
+
+  --lembrut-purple-h: 290;
+  --lembrut-purple-s: 48%;
+  --lembrut-purple-l: 93%;
+  --lembrut-purple: hsl(var(--lembrut-purple-h), var(--lembrut-purple-s), var(--lembrut-purple-l));
 
   /* Active State Logic */
   --active-saturation-boost: 30%;
