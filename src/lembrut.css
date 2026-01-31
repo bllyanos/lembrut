@@ -222,8 +222,8 @@ body {
 
 .checkbox:focus ~ .checkmark,
 .radio:focus ~ .radiomark {
-  box-shadow: 5px 5px 0px 0px var(--lembrut-black);
-  transform: translate(-1px, -1px);
+  box-shadow: 6px 6px 0px 0px var(--lembrut-black);
+  transform: translate(-1.5px, -1.5px);
 }
 
 .checkbox:focus-visible ~ .checkmark,
