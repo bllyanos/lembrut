@@ -210,6 +210,37 @@ body {
   box-shadow: 1px 1px 0px 0px var(--lembrut-black);
 }
 
+.file-input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background: white;
+  border: var(--lembrut-border-width) solid var(--lembrut-black);
+  border-radius: var(--lembrut-radius);
+  box-shadow: 4px 4px 0px 0px var(--lembrut-black);
+  cursor: pointer;
+}
+
+.file-input::file-selector-button {
+  margin-right: 1rem;
+  border: var(--lembrut-border-width) solid var(--lembrut-black);
+  background: var(--lembrut-blue);
+  padding: 0.5rem 1rem;
+  border-radius: calc(var(--lembrut-radius) / 2);
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.file-input::file-selector-button:hover {
+  background-color: var(--lembrut-yellow);
+}
+
+.file-input::file-selector-button:active {
+  transform: translate(2px, 2px);
+}
+
 /* Utility classes (Simplified) */
 .p-8 { padding: 2rem; }
 .p-6 { padding: 1.5rem; }
