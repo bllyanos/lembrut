@@ -9,5 +9,5 @@
 
 ---
 
-- [ ] **Track: add readme.md for this project**
+- [x] **Track: add readme.md for this project**
 *Link: [./tracks/add_readme_20260131/](./tracks/add_readme_20260131/)*
