@@ -2,7 +2,7 @@
 
 This plan outlines the steps to implement more vibrant background and outline colors for focused/active interactive elements in the `lembrut` framework.
 
-## Phase 1: Foundation & Variables
+## Phase 1: Foundation & Variables [checkpoint: 1ccc71b]
 - [x] 0482e0f Task: Define global CSS variables for active state saturation boost and darkening in `src/lembrut.css`.
 - [x] 6353904 Task: Update base color definitions to support dynamic transformation using these new variables.
 - [ ] Task: Conductor - User Manual Verification 'Foundation & Variables' (Protocol in workflow.md)
