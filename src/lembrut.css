@@ -68,6 +68,10 @@ body {
 
 .bg-pastel-yellow { background-color: var(--lembrut-yellow); }
 .bg-pastel-pink { background-color: var(--lembrut-pink); }
+.bg-pastel-blue { background-color: var(--lembrut-blue); }
+.bg-pastel-green { background-color: var(--lembrut-green); }
+.bg-pastel-red { background-color: var(--lembrut-red); }
+.bg-pastel-purple { background-color: var(--lembrut-purple); }
 
 .card {
   background: white;
@@ -608,3 +612,4 @@ body {
 .gap-4 { gap: 1rem; }
 .gap-8 { gap: 2rem; }
 .space-y-8 > * + * { margin-top: 2rem; }
+.h-full { height: 100%; }
