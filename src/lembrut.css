@@ -60,6 +60,51 @@ body {
   border: var(--lembrut-border-width) solid var(--lembrut-black);
   border-radius: var(--lembrut-radius);
   box-shadow: var(--lembrut-shadow-offset) var(--lembrut-shadow-offset) 0px 0px var(--lembrut-black);
+  transition: transform 0.1s, box-shadow 0.1s, background-color 0.1s, border-color 0.1s;
+}
+
+[class*="bg-pastel-"]:focus {
+  outline: none;
+  box-shadow: 6px 6px 0px 0px var(--lembrut-black);
+  transform: translate(-1px, -1px);
+}
+
+.bg-pastel-yellow:focus {
+  background-color: hsl(
+    var(--lembrut-yellow-h),
+    calc(var(--lembrut-yellow-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-yellow-l) - var(--active-lightness-decrease))
+  );
+  border-color: hsl(
+    var(--lembrut-yellow-h),
+    calc(var(--lembrut-yellow-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-yellow-l) - calc(var(--active-lightness-decrease) * 2))
+  );
+}
+
+.bg-pastel-pink:focus {
+  background-color: hsl(
+    var(--lembrut-pink-h),
+    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-pink-l) - var(--active-lightness-decrease))
+  );
+  border-color: hsl(
+    var(--lembrut-pink-h),
+    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-pink-l) - calc(var(--active-lightness-decrease) * 2))
+  );
+}
+
+.card:focus {
+  outline: none;
+  background-color: var(--lembrut-yellow);
+  box-shadow: 8px 8px 0px 0px var(--lembrut-black);
+  transform: translate(-1px, -1px);
+}
+
+.card:active {
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px 0px 0px var(--lembrut-black);
 }
 
 .btn {
