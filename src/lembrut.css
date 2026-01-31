@@ -231,6 +231,32 @@ body {
   transform: translate(-1px, -1px);
 }
 
+.checkbox:focus ~ .checkmark {
+  background-color: hsl(
+    var(--lembrut-blue-h),
+    calc(var(--lembrut-blue-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-blue-l) - var(--active-lightness-decrease))
+  );
+  border-color: hsl(
+    var(--lembrut-blue-h),
+    calc(var(--lembrut-blue-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-blue-l) - calc(var(--active-lightness-decrease) * 2))
+  );
+}
+
+.radio:focus ~ .radiomark {
+  background-color: hsl(
+    var(--lembrut-pink-h),
+    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-pink-l) - var(--active-lightness-decrease))
+  );
+  border-color: hsl(
+    var(--lembrut-pink-h),
+    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-pink-l) - calc(var(--active-lightness-decrease) * 2))
+  );
+}
+
 .checkbox:focus-visible ~ .checkmark,
 .radio:focus-visible ~ .radiomark {
   outline: 2px solid var(--lembrut-black);
@@ -280,7 +306,16 @@ body {
 
 .file-input:focus {
   outline: none;
-  background-color: var(--lembrut-pink);
+  background-color: hsl(
+    var(--lembrut-pink-h),
+    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-pink-l) - var(--active-lightness-decrease))
+  );
+  border-color: hsl(
+    var(--lembrut-pink-h),
+    calc(var(--lembrut-pink-s) + var(--active-saturation-boost)),
+    calc(var(--lembrut-pink-l) - calc(var(--active-lightness-decrease) * 2))
+  );
   box-shadow: 6px 6px 0px 0px var(--lembrut-black);
   transform: translate(-1px, -1px);
 }
